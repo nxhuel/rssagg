@@ -11,6 +11,10 @@ import (
 	"github.com/joho/godotenv"
 )
 
+type apiConfig struct {
+	DB *database.Queries
+}
+
 func main() {
 	fmt.Println("hello world")
 
